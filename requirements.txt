@@ -1,0 +1,54 @@
+# Cloudflare Security Bypass Assessment Tool - Requirements
+# Version: 1.0.0
+
+## Core Dependencies
+requests>=2.31.0              # HTTP requests and API calls
+dnspython>=2.4.2              # DNS resolution and queries
+colorama>=0.4.6               # Cross-platform colored terminal output
+tqdm>=4.66.1                  # Progress bars for long operations
+
+## Security & Networking
+pyOpenSSL>=23.2.0             # SSL/TLS handling and certificate verification
+cryptography>=41.0.7          # Cryptographic functions and hashing
+urllib3>=2.0.7                # HTTP client with advanced features
+netaddr>=0.9.0                # IP address manipulation and CIDR handling
+
+## Data Processing & Output
+pandas>=2.1.3                 # Data analysis and report generation
+pyyaml>=6.0.1                 # YAML configuration and report formatting
+prettytable>=3.9.0            # Beautiful table formatting for CLI
+rich>=13.7.0                  # Rich text and beautiful formatting in terminal
+
+## Development & Testing
+pytest>=7.4.3                 # Testing framework
+pytest-cov>=4.1.0             # Test coverage reporting
+black>=23.11.0                # Code formatting
+flake8>=6.1.0                 # Code linting
+mypy>=1.7.0                   # Static type checking
+pre-commit>=3.5.0             # Git hooks for code quality
+
+## Optional Dependencies
+# gevent>=23.9.1              # Optional: Async networking for performance
+# aiohttp>=3.9.1              # Optional: Async HTTP client
+# python-whois>=0.8.0         # Optional: WHOIS lookups
+# shodan>=1.29.0              # Optional: Shodan API integration
+# censys>=2.2.9               # Optional: Censys API integration
+
+## System Compatibility
+pywin32>=306                  # Windows-specific utilities (Windows only)
+python-dotenv>=1.0.0          # Environment variable management
+
+## Report Generation
+jinja2>=3.1.2                 # HTML report templating
+markdown>=3.5.1               # Markdown report generation
+pdfkit>=1.0.0                 # PDF report generation (requires wkhtmltopdf)
+
+# Platform-specific requirements
+# For PDF generation on Ubuntu/Debian:
+# sudo apt-get install wkhtmltopdf
+
+# For PDF generation on macOS:
+# brew install wkhtmltopdf
+
+# For PDF generation on Windows:
+# Download wkhtmltopdf from: https://wkhtmltopdf.org/downloads.html
