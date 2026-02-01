@@ -33,3 +33,32 @@ This tool demonstrates how **DNS misconfigurations can completely bypass Cloudfl
 git clone https://github.com/yourusername/cloudflare-bypass-tool.git
 cd cloudflare-bypass-tool
 pip install -r requirements.txt
+
+# Security scan only (recommended)
+python cloudflare_bypass.py --target example.com --mode scan
+
+# Generate comprehensive report
+python cloudflare_bypass.py --target example.com --mode report
+
+# Interactive demonstration
+python cloudflare_bypass.py --target example.com --mode interactive
+
+🎓 Educational Purpose
+This tool is designed for:
+
+Security Professionals: Client assessments and audits
+
+System Administrators: Testing own infrastructure
+
+Educational Institutions: Cybersecurity training
+
+CTF Participants: Security challenge preparation
+
+⚖️ Legal Disclaimer
+⚠️ IMPORTANT:
+
+Use only on systems you own or have written permission to test
+
+Unauthorized use may be illegal and result in criminal charges
+
+This tool is for educational and authorized security testing only
