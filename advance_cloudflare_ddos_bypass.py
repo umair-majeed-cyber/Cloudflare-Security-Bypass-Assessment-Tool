@@ -32,7 +32,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 init(autoreset=True)
 
 class CloudflareBypassDDoSExtreme:
-    def __init__(self, target_domain="uet.edu.pk"):
+    def __init__(self, target_domain="example.com"):   # change domain name according to your target
         self.target_domain = target_domain
         self.origin_ips = []
         self.vulnerable_subdomains = []
@@ -1731,7 +1731,7 @@ def main():
     # Get target
     target = input(f"{Fore.CYAN}Enter target domain [uet.edu.pk]: {Style.RESET_ALL}").strip()
     if not target:
-        target = "uet.edu.pk"
+        target = "example.com" #change domain name according to your target.
     
     # Create tool instance
     tool = CloudflareBypassDDoSExtreme(target)
