@@ -6,7 +6,7 @@ This tool demonstrates how attackers can bypass Cloudflare's DDoS protection
 by targeting the origin server IP directly with FULL attack simulation.
 
 ⚠️  FOR AUTHORIZED SECURITY TESTING ONLY ⚠️
-Educational purpose: To demonstrate the critical risk to UET administrators
+Educational purpose: To demonstrate the critical risk
 """
 
 import socket
@@ -1729,7 +1729,7 @@ def main():
         sys.exit(0)
     
     # Get target
-    target = input(f"{Fore.CYAN}Enter target domain [uet.edu.pk]: {Style.RESET_ALL}").strip()
+    target = input(f"{Fore.CYAN}Enter target domain [example.com]: {Style.RESET_ALL}").strip()
     if not target:
         target = "example.com" #change domain name according to your target.
     
