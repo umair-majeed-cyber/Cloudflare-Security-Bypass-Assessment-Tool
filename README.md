@@ -1,4 +1,4 @@
-# 🔐 Cloudflare Security Bypass Assessment Tool
+# Cloudflare Security Bypass Assessment Tool
 
 **Discover how attackers bypass $200K+ Cloudflare protection through DNS misconfigurations**
 
@@ -7,17 +7,17 @@
 [![Security](https://img.shields.io/badge/Security-Assessment-red)](SECURITY.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
-## ⚠️ Critical Security Discovery
+## Critical Security Discovery
 This tool demonstrates how **DNS misconfigurations can completely bypass Cloudflare's $200,000+ annual protection**, exposing origin servers to direct attacks.
 
-## 🎯 Features
+## Features
 - **DNS Reconnaissance**: Discover exposed origin server IPs
 - **Cloudflare Bypass Testing**: Test multiple bypass vectors
 - **Attack Simulation**: DDoS, Slowloris, and multi-vector attack simulation
 - **Comprehensive Reporting**: JSON reports with CVSS scoring and immediate actions
 - **Risk Assessment**: Financial impact analysis and remediation plans
 
-## 📊 Real-World Impact
+## Real-World Impact
 | Metric | Result |
 |--------|--------|
 | **Risk Score** | 9.2/10 (CRITICAL) |
@@ -26,7 +26,7 @@ This tool demonstrates how **DNS misconfigurations can completely bypass Cloudfl
 | **Financial Exposure** | $230K-$1M+ |
 | **ROI on Fix** | 835x average return |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 ```bash
@@ -43,7 +43,7 @@ python cloudflare_bypass.py --target example.com --mode report
 # Interactive demonstration
 python cloudflare_bypass.py --target example.com --mode interactive
 
-🎓 Educational Purpose
+Educational Purpose
 This tool is designed for:
 
 Security Professionals: Client assessments and audits
@@ -53,9 +53,10 @@ System Administrators: Testing own infrastructure
 Educational Institutions: Cybersecurity training
 
 CTF Participants: Security challenge preparation
+```
 
-⚖️ Legal Disclaimer
-⚠️ IMPORTANT:
+# Legal Disclaimer
+IMPORTANT:
 
 Use only on systems you own or have written permission to test
 
