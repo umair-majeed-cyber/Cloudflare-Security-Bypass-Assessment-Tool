@@ -1,4 +1,4 @@
-# Cloudflare Security Bypass Assessment Tool
+# Cloudflare Bypass Tool
 
 **Discover how attackers bypass $200K+ Cloudflare protection through DNS misconfigurations**
 
